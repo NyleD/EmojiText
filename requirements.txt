@@ -19,7 +19,7 @@ cupshelpers==1.0
 cycler==0.10.0
 defer==1.0.6
 defusedxml==0.5.0
-distro-info==0.18
+distro-info===0.18ubuntu0.18.04.1
 dj-database-url==0.5.0
 Django==2.1.7
 django-allauth==0.39.1
@@ -111,7 +111,7 @@ termcolor==1.1.0
 twilio==6.26.0
 typed-ast==1.2.0
 ubuntu-drivers-common==0.0.0
-ufw==0.35
+ufw==0.36
 unattended-upgrades==0.1
 urllib3==1.24.1
 usb-creator==0.3.3
