@@ -23,9 +23,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'i&1!odo%s!6kf)-gc*q2s(0rly$3y2v5#-b&7f4wlc+5cb9q^u'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['emojifytext.herokuapp.com']
+ALLOWED_HOSTS = ['emojifytext.herokuapp.com',
+                 '127.0.0.1']
 
 
 # Application definition
@@ -122,12 +123,11 @@ USE_TZ = True
 
 
 
-PROJECT_ROOT = os.path.join(os.path.abspath(__file__))
-STATIC_ROOT = os.path.join(PROJECT_ROOT, 'staticfiles')
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
 STATICFILES_DIRS = [ 
-    os.path.join(PROJECT_ROOT, 'static'),
+    os.path.join(BASE_DIR, 'static'),
 ]
 
 #  Add configuration for static files storage using whitenoise
