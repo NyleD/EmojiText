@@ -1,5 +1,4 @@
 from django.shortcuts import render
-from .models import TextEmoji 
 import requests
 import json
 from .emo_utils import read_glove_vecs
