@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'i&1!odo%s!6kf)-gc*q2s(0rly$3y2v5#-b&7f4wlc+5cb9q^u'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['emojifytext.herokuapp.com']
 
