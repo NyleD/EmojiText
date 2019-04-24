@@ -22,8 +22,7 @@ def text_to_sentence(text):
 
 
 def emojify(text):
-
-    url = 'http://0.0.0.0:5000/emojify/api/v1.0'
+    url = 'https://emojifyapi.herokuapp.com/emojify/api/v1.0'
     data = {}
     word_to_index, index_to_word, word_to_vec_map = read_glove_vecs('glove.6B.50d.txt')
     i = 0
