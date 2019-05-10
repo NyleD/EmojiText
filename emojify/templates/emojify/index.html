@@ -207,34 +207,6 @@
 		</section>
 		<!-- End Feature -->
 
-		<!-- Start Download -->
-		<section id="mu-download">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-12">
-						<div class="mu-download-area">
-
-							<div class="mu-title-area">
-								<h2 class="mu-title">GET THE APP</h2>
-								<span class="mu-title-dot"></span>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis unde, ut sapiente et voluptatum facilis consectetur incidunt provident asperiores at necessitatibus nulla sequi voluptas libero quasi explicabo veritatis minima porro.</p>
-							</div>
-
-
-							<div class="mu-download-content">
-								<a class="mu-apple-btn" href="#"><i class="fa fa-apple"></i><span>apple store</span></a>
-								<a class="mu-google-btn" href="#"><i class="fa fa-android"></i><span>google play</span></a>
-								<a class="mu-windows-btn" href="#"><i class="fa fa-windows"></i><span>windows store</span></a>
-							</div>
-
-
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-		<!-- End Download -->
-
 		<!-- Start FAQ -->
 		<section id="mu-faq">
 			<div class="container">
@@ -256,13 +228,15 @@
 							          <div class="panel-heading">
 							            <h4 class="panel-title">
 							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true">
-							                <span class="fa fa-minus"></span> What is Apex App? 
+							                <span class="fa fa-minus"></span> What is the Emojify API? 
 							              </a>
 							            </h4>
 							          </div>
 							          <div id="collapseOne" class="panel-collapse collapse in">
 							            <div class="panel-body">
-							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+														The api takes your text messages and assign's the most relevant emojies to end of each sentence. We didn't just assign emojies to differnt words, we understood that this a NLP task. For example " I am happy", and "I am not happy",
+														should be assigned different emojies. 
+														So with the use of LSTM, our algorithm can assign emojies based on the sequence of words and the meaning of the whole senetence. 
 							            </div>
 							          </div>
 							        </div>
@@ -271,13 +245,14 @@
 							          <div class="panel-heading">
 							            <h4 class="panel-title">
 							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">
-							                <span class="fa fa-plus"></span> How do I setup this App? 
+							                <span class="fa fa-plus"></span> How do I use the Emojify API?
 							              </a>
 							            </h4>
 							          </div>
 							          <div id="collapseTwo" class="panel-collapse collapse">
 							            <div class="panel-body">
-							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							              You can place a request at https://emojifyapi.herokuapp.com/emojify/api/v1.0. Unfortuntely, our word vectors and training set only consists of real words, so the API will not work with slang words. 
+														However, we are currently imporving our training set, to accompany slang words and texts from different parts of the world, so everyone can use it! 
 							            </div>
 							          </div>
 							        </div>
@@ -286,13 +261,13 @@
 							          <div class="panel-heading">
 							            <h4 class="panel-title">
 							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">
-							                <span class="fa fa-plus"></span> Does it cost anything to become a member? 
+							                <span class="fa fa-plus"></span> Does it cost anything to use the API? 
 							              </a>
 							            </h4>
 							          </div>
 							          <div id="collapseThree" class="panel-collapse collapse">
 							            <div class="panel-body">
-							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							              No, the API is currently free of charge!
 							            </div>
 							          </div>
 							        </div>
@@ -301,13 +276,13 @@
 							          <div class="panel-heading">
 							            <h4 class="panel-title">
 							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">
-							                <span class="fa fa-plus"></span> What is your policy regarding privacy? 
+							                <span class="fa fa-plus"></span> What should I send to the API? 
 							              </a>
 							            </h4>
 							          </div>
 							          <div id="collapseFour" class="panel-collapse collapse">
 							            <div class="panel-body">
-							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							              You can send sentences of your text messages. For now, the API can only work with sentences that end in a period, and the next sentence begins after one space. For example "I am happy" should be "I am happy.", and "I am ready, we can go for lunch" should be "I am ready. We can go for lunch.".  
 							            </div>
 							          </div>
 							        </div>
@@ -316,13 +291,14 @@
 							          <div class="panel-heading">
 							            <h4 class="panel-title">
 							              <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">
-							                <span class="fa fa-plus"></span> Are there more help resources available? 
+							                <span class="fa fa-plus"></span> What does the API return? 
 							              </a>
 							            </h4>
 							          </div>
 							          <div id="collapseFive" class="panel-collapse collapse">
 							            <div class="panel-body">
-							              Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+							              A json object, where each value repersents a sentence. Each key is the ith number for the ith sentence starting at 0 in string format.  
+														For Example: "I love this site. I am so happy." would return the following object. {'0': 'I love this site 😄', '1': 'I am so happy 😄'}
 							            </div>
 							          </div>
 							        </div>
@@ -342,7 +318,7 @@
 	<footer id="mu-footer" role="contentinfo">
 			<div class="container">
 				<div class="mu-footer-area">
-					<p class="mu-copy-right">&copy; Copyright <a rel="nofollow" href="http://markups.io">markups.io</a>. All right reserved.</p>
+					<p class="mu-copy-right">&copy; Copyright <a rel="nofollow" href="http://markups.io">Nyle Dharani</a>. All right reserved.</p>
 				</div>
 			</div>
 
