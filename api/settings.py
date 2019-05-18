@@ -26,7 +26,8 @@ SECRET_KEY = 'i&1!odo%s!6kf)-gc*q2s(0rly$3y2v5#-b&7f4wlc+5cb9q^u'
 DEBUG = True
 
 ALLOWED_HOSTS = ['emojifytext.herokuapp.com',
-                 '127.0.0.1']
+                 '127.0.0.1',
+                 'www.emojifytext.com']
 
 
 # Application definition

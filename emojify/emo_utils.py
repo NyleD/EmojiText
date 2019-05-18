@@ -32,7 +32,6 @@ def softmax(x):
 
 
 def read_csv(filename = 'data/emojify_data.csv'):
-    # need to store the file given somewhere
     phrase = []
     emoji = []
 
@@ -53,7 +52,7 @@ def convert_to_one_hot(Y, C):
     return Y
 
 
-emoji_dictionary = {"0": "\u2764\uFE0F",    # :heart: prints a black instead of red heart depending on the font
+emoji_dictionary = {"0": "\u2764\uFE0F",   
                     "1": ":baseball:",
                     "2": ":smile:",
                     "3": ":disappointed:",
